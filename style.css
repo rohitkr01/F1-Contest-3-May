@@ -96,9 +96,9 @@ main h1{
     padding: 20px 100px;
 }
 
-.about-content p , .about-content img{
+/* .about-content p , .about-content img{
     padding: 20px;
-}
+} */
 
 /* Menu Section styling  */
 
@@ -149,3 +149,12 @@ main h1{
     text-transform: uppercase;
     text-align: center;
  }
+
+
+ /* Footer section styling */
+ footer{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+ }
+ 
