@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+    /* background: black; */
+}
+body{
+    background: black;
+    color: white;
+}
+
+header{
+    background-color: black;
+    color: white;
+    font-family: 'Ruda', sans-serif;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav-links ul , .social-icons ul{
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+/* main section */
+main{
+    /* background: url(./Images/pizza1.png); */
+    width: 100%;
+    /* height: 130vh; */
+}
+main h1{
+   
+    width: 599px;
+    height: 325px;
+
+    position: absolute;
+    left: 116px;
+    top: 160px;
+    
+    color: white;
+    font-size: 90px;
+    width: 700px;
+}
+.line{
+    border: 5px solid #F24C4C;
+    width: 350px;
+    /* height: 3px; */
+
+    position: absolute;
+    left: 116px;
+    top: 410px;
+}
+
+.main-desc{
+    width: 350px;
+    color: white;
+    position: absolute;
+    left: 116px;
+    top: 470px;
+}
+
+/* About us Section */
+
+.About-us h1{
+    
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 1;
+    font-size: 30px;
+    line-height: 90px;
+    text-decoration: underline;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about-content{
+    display: flex;
+    padding: 20px 100px;
+}
+
+.about-content p , .about-content img{
+    padding: 20px;
+}
+
+/* Menu Section styling  */
+
+.Menu h2{
+    text-align: center;
+    padding-top: 30px; 
+    font-family: 'Quattrocento';
+}
+
+.menu-content{
+    padding: 30px 100px;
+}
+
+
+.p-item{
+    display: flex;
+    gap: 20px;
+}
+
+.pizza-content{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+   
+}
+
+.p-item{
+    padding: 15px;
+}
+
+.p-content h2{
+    text-align: left;
+    font-size: 14px;
+    color: #F2C94C;
+}
+
+ /* Find us section  */
+
+ .find-us h1{
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 1;
+    font-size: 30px;
+    line-height: 90px;
+    text-decoration: underline;
+
+    text-transform: uppercase;
+    text-align: center;
+ }
